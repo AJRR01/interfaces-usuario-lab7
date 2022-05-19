@@ -1,2 +1,2 @@
 # interfaces-usuario-lab7
-Entrega de Lab 7: Accesibilidad en la web
+Entrega de Lab 7: Accesibilidad en la web (Ángel Joaquín Rodríguez Rodríguez)
