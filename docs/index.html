@@ -22,7 +22,7 @@
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
           alt="Bootstrap" width="72" height="57">
-        <h2>Checkout form</h2>
+        <h1>Checkout form</h1>
         <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group
           has a validation state that can be triggered by attempting to submit the form without completing it.</p>
       </div>
@@ -161,14 +161,20 @@
 
             <hr class="my-4">
 
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="same-address">
-              <label class="form-check-label" for="same-address">Shipping address is the same as my billing
-                address</label><br/>
-              <input type="checkbox" class="form-check-input" id="save-info">
-              <label class="form-check-label" for="save-info">Save this information for next time</label><br/>
-            </div>
-
+            <fieldset>
+              <legend>Additional options</legend>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                  address</label>
+              </div>
+  
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Save this information for next time</label>
+              </div>
+            </fieldset>
+            
             <hr class="my-4">
 
             <h4 class="mb-3">Payment</h4>
